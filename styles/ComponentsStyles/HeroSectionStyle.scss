@@ -1,0 +1,16 @@
+.HeroSection{
+    @apply  h-[70vh] md:h-screen flex flex-col items-center justify-center; 
+    .logo-wrapper{
+        @apply mb-[1.375rem];
+    }
+    .hello{
+        @apply text-base  font-[400];
+        font-family:'Manrope';
+    }
+    & h1{
+        @apply text-[2.5rem] md:text-[4rem] font-[400] md:leading-[77px];
+    }
+    h2{
+        @apply  text-[2.5rem] md:text-[4rem] font-[400] md:leading-[77px] text-[#B9B9B9] text-center;
+    }
+}

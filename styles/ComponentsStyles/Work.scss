@@ -1,0 +1,50 @@
+.work-wrapper{
+    @apply  flex flex-col justify-start  space-y-[4rem] md:space-y-[7.75rem] pb-[5rem]  md:mb-[13.125rem] w-full mx-auto;
+
+    .project{
+        @apply  relative rounded-b-[16px] mx-auto md:max-w-[80%] lg:max-w-[65%] max-w-[90%] flex flex-col;         
+        .img-container{
+            @apply  w-[100%] h-auto md:h-[34.375rem] shadow-md;
+
+    .project-img{
+        @apply h-full w-full;
+        }
+        }
+    }
+    .project-desc-even{
+        @apply  bg-[#18191F] top-[2.5rem] py-[1.5rem] px-[1rem] text-white md:absolute lg:left-[-12.4375rem] md:left-[-3.5rem] -order-1 mb-4;
+        font-family: 'Manrope';
+        h2{
+            @apply text-[1.5rem] font-[600];
+        }
+
+        .desc{
+            @apply text-base mb-[1rem] mt-[0.5rem] font-[200] max-w-[18.875rem] ;
+        }
+        .view-project{
+            @apply flex items-center gap-[0.5rem];
+            :hover#arrow-right{
+                @apply group-hover:scale-[1.4];
+                height: 15px;
+            }
+        }
+    }
+    .project-desc{
+        @apply  bg-[#18191F] top-[2.5rem] py-[1.5rem] px-[1rem] text-white md:right-[-3.5rem] md:absolute lg:right-[-12.4375rem]  -order-1 mb-4;
+        font-family: 'Manrope';
+        h2{
+            @apply text-[1.5rem] font-[600];
+        }
+        .desc{
+            @apply text-base mb-[1rem] mt-[0.5rem] font-[200] max-w-[17.875rem];
+        }
+        .view-project{
+            @apply flex items-center gap-[0.5rem];
+
+            :hover#arrow-right{
+                @apply group-hover:scale-[1.4];
+                height: 15px;
+            }
+        }
+    }
+}
