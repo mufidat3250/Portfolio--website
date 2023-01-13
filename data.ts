@@ -29,12 +29,4 @@ export const experence = [
         link: "https://risevest-clone.vercel.app/",
       },
     },
-    {
-      img: "/imgs/risevest-clone.png",
-      desc: {
-        title: "Rise Vest cloned",
-        desc: "Invest your money in top-notch assets to help you accumulate  wealth and meet your financial objectives.",
-        link: "https://risevest-clone.vercel.app/",
-      },
-    },
   ];
