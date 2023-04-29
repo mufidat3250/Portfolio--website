@@ -32,8 +32,8 @@ export const experence = [
     {
       img: "/imgs/finbus_gloabl.png",
       desc: {
-        title: "Rise Vest cloned",
-        desc: "Invest your money in top-notch assets to help you accumulate wealth and meet your financial objectives.",
+        title: "Global Finburs",
+        desc: `Global-Finbus is a website for accessing the skills and expertise of Bookkeepers, Controllers, and CPAs who specialize in Accounting, Taxation, Financial Management, Business Structure, Data Analytics.`,
         link:"https://finbus-global.vercel.app/"
       },
     },
