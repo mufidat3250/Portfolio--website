@@ -1,5 +1,6 @@
 import { useState } from "react"
 import {motion} from 'framer-motion'
+import Link from "next/link"
 const NavBar = () => {
     const [toggle, setToggle] = useState(false)
 
@@ -21,7 +22,9 @@ const NavBar = () => {
     <nav className='NavbarWrapper'>
         <div className="navTab--container">
         <motion.div initial={{opacity:0, x:-200}} animate={{ opacity:1, x:0}} viewport={{once:true}} transition ={{ease:'linear', delay:1, duration:0.5}}>
-            <h1>Wahab</h1>
+            <Link href={'#/'}>
+            <h1><i>Wahab</i></h1>
+            </Link>
         </motion.div>
         <div className="info">
           <motion.div className="info-data" initial={{opacity:0, x:200}} animate={{ opacity:1, x:0}} transition ={{ease:'linear', delay:1, duration:0.5}} viewport={{once:true}}> 

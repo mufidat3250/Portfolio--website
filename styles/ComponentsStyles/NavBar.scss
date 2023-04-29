@@ -1,5 +1,5 @@
 .NavbarWrapper{
-    @apply text-[1.125rem] shadow-lg w-full z-[1000] bg-white fixed;   
+    @apply text-[1.125rem] h-[60px] shadow-lg w-full bg-white;   
     .navTab--container{
         @apply  max-w-[90%] md:max-w-[80%] mx-auto flex justify-between items-center;
     }

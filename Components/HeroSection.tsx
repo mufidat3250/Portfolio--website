@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const HeroSection = () => {
   return (
-    <motion.div className="HeroSection" initial={{opacity:0, y:-200}} animate={{ opacity:1, y:0}} viewport={{once:true}} transition ={{ease:'linear', delay:1, duration:1}}>
+    <motion.div className="HeroSection" id='/' initial={{opacity:0, y:-200}} animate={{ opacity:1, y:0}} viewport={{once:true}} transition ={{ease:'linear', delay:1, duration:1}}>
       <div className="logo-wrapper">
         <img src="/logo.svg" alt="" />
       </div>

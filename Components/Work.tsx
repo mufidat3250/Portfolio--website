@@ -5,7 +5,7 @@ import { experence } from "../data";
 const Work = () => {
  
   return (
-    <div className="work-wrapper" id="work">
+    <div className="work-wrapper pt-72" id="work">
       {experence.map(({ img, desc:{ title, desc, link}}, index) => {
         return (
           <div key={index}>
@@ -24,7 +24,7 @@ const Work = () => {
                 </div>
               </div>
             ) : (
-              <div className="project">
+              <div className="project" key = {index}>
                 <div className="img-container">
                   <img src={img} alt="" className="project-img" />
                 </div>

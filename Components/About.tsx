@@ -3,8 +3,9 @@ import { about } from '../data'
 
 const About = () => {   
   return (
-    <div className='about'>
-        <h1 id='about'>{about.title} <strong>ME</strong></h1>
+    <div id='about' className='mt-[100px]'>
+      <div className='about'>
+        <h1 id='about'>{about.title}<strong>ME</strong></h1>
         <p className='desc'>{about.desc}</p>
 
         <div className='tech-tools'>
@@ -21,6 +22,7 @@ const About = () => {
         </div>
         </div>
         </div>
+    </div>
     </div>
   )
 }

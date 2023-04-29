@@ -1,5 +1,5 @@
 .work-wrapper{
-    @apply  flex flex-col justify-start  space-y-[4rem] md:space-y-[7.75rem] pb-[5rem]  md:mb-[13.125rem] w-full mx-auto;
+    @apply  flex flex-col justify-start  space-y-[4rem] md:space-y-[7.75rem] pb-[5rem]  md:mb-[13.125rem] w-full mx-auto mt-[60px];
 
     .project{
         @apply  relative rounded-b-[16px] mx-auto md:max-w-[80%] lg:max-w-[65%] max-w-[90%] flex flex-col;         
