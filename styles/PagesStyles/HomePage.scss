@@ -1,6 +1,6 @@
-.home{
-    @apply overflow-hidden;  
+.home {
+  @apply h-screen flex flex-col overflow-hidden;
 }
-.content{
-    @apply  h-screen overflow-y-auto;
+.content {
+  @apply flex-1 overflow-y-auto;
 }
