@@ -21,12 +21,12 @@ const Footer = () => {
   return (
     <div className="footer" >
       <div className="contact" id="contact">
-        <p id="contact-info">
+        <p id="contact-info" className="">
           Got a question, proposal or project or want to work together on
           something? Feel free to reach out.
         </p>
        <Link href='mailto:wahabmufidat1919@gmail.com'>
-       <h1 id="mail" >WAHABMUFIDAT@GMAIL.COM</h1>
+       <h1 id="mail" >WAHABMUFIDAT1919@GMAIL.COM</h1>
        </Link>
       </div>
       <div className="copy-write">

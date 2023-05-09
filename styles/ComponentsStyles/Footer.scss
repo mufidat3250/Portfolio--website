@@ -2,7 +2,7 @@
     @apply md:max-w-[80%] mx-auto flex flex-col;
 
     .contact{
-        @apply self-center text-center mb-[5.9375rem]; 
+        @apply self-center text-center mb-[5.9375rem] md:p-0 mx-5; 
     }
     #contact-info{
         @apply  md:text-[1.125rem] font-[400] leading-[24px] text-[#4F4F4F] max-w-[35.875rem]; 

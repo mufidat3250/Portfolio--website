@@ -39,7 +39,7 @@ const NavBar = () => {
             <span className="cancel" onClick={()=>setToggle(false)}>
                 <img src="/close.svg" alt="" />
             </span>
-        {navtab.map((tab, index)=> <p key={index}>{tab.title}</p>)}
+        {navtab.map((tab, index)=> <a key={index} href={`#${tab.link}`} > {tab.title}</a>)}
         </div>        
 
     </nav>
