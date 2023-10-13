@@ -8,7 +8,7 @@ export default function Home() {
   return (
       <main className="home">
       <NavBar/>     
-      <div className="content mt-7">
+      <div className="content pt-10">
       <HeroSection/>
       <Work />
       <About/>
