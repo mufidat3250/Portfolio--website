@@ -1,7 +1,8 @@
 .HeroSection{
-    @apply  h-[70vh] md:h-screen flex flex-col items-center justify-center; 
+    @apply  h-[70vh] md:h-screen flex flex-col items-center justify-center ; 
     .logo-wrapper{
-        @apply mb-[1.375rem];
+        @apply mb-[1.375rem] rounded-xl;
+
     }
     .hello{
         @apply text-base  font-[400];
