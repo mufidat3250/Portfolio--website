@@ -10,13 +10,13 @@ export const experence = [
     {
       img: "/imgs/todo.png",
       desc: {
-        title: "Hayak",
+        title: "Activity App",
         desc: "A modern todo list that helps users to be productive base on the task at hand",
         link: "https://todo-app-with-crud-operation-ashy.vercel.app/",
       },
     },
     {
-      img: "",
+      img: "/imgs/codex.jpg",
       desc: {
         title: "Codex",
         desc: "All in one Legal management tools for law practice",
