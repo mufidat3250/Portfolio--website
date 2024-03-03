@@ -4,21 +4,31 @@ export  const about = {
     technology:['HTML & CSS', 'JavaScript(Es6+)', 'ReactJs', 'TypeScript', 'NextJs', 'TailwindCSS', 'StyledComponent', 'Redux', 'Simpler State'],
     tools:['VsCode', 'Git', 'GitLab', 'GitHub', 'FireBase', 'Vercel', 'Netlify', 'Trello', 'Jira']
 }
+
+
 export const experence = [
     {
-      img: "/imgs/hayak.png",
+      img: "/imgs/todo.png",
       desc: {
         title: "Hayak",
-        desc: "The simplest way is to travel the world and have new adventures. help enhance your travel and entertainment memories throughout the Kingdom.",
-        link: "https://hayak.sa/en",
+        desc: "A modern todo list that helps users to be productive base on the task at hand",
+        link: "https://todo-app-with-crud-operation-ashy.vercel.app/",
       },
     },
     {
-      img: "/imgs/lawParlance.png",
+      img: "",
       desc: {
-        title: "Law Parlance",
+        title: "Codex",
         desc: "All in one Legal management tools for law practice",
-        link: "https://www.lawparlance.com/",
+        link: "https://codex-taupe-gamma.vercel.app/",
+      },
+    },
+    {
+      img: "/imgs/sessors.png",
+      desc: {
+        title: "Scissors",
+        desc: "Personalize your shortened URLs to align with your brand identity",
+        link: "https://scissor-sage.vercel.app/login",
       },
     },
     {
