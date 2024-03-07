@@ -28,7 +28,7 @@ export const experence = [
       desc: {
         title: "Scissors",
         desc: "Personalize your shortened URLs to align with your brand identity",
-        link: "https://scissor-sage.vercel.app/login",
+        link: "https://scissor-red.vercel.app/login",
       },
     },
     {
