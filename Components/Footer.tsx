@@ -32,7 +32,7 @@ const Footer = () => {
       <div className="copy-write">
         <div className="icon-wrapper">
           {copywriteIcon.map(({ img, link }, index) => (
-            <Link href={link}>
+            <Link href={link} key={`copywriteIcon-${index}`}>
               <Image src={img} alt={""} key={index} width='21' height={17} className='icon'/>
             </Link>
           ))}
