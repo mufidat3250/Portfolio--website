@@ -21,7 +21,7 @@ export const experence = [
     desc: {
       title: "Scissors",
       desc: "Personalize your shortened URLs to align with your brand identity",
-      link: "https://scissor-red.vercel.app/login",
+      link: "https://scissor-red.vercel.app",
     },
   },
   {
@@ -35,9 +35,9 @@ export const experence = [
     {
       img: "/imgs/todo list .png",
       desc: {
-        title: "Activities Listening",
+        title: "Activities Listing",
         desc: "A modern activities app that help users to to organize there daily activities.",
-        link: "https://todo-app-with-crud-operation-ashy.vercel.app/",
+        link: "https://activities-listing-app.vercel.app/",
       },
     },
     {
@@ -49,6 +49,4 @@ export const experence = [
       },
     },
     
-   
-    
-  ];
+];
